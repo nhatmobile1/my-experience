@@ -188,11 +188,20 @@
     box-shadow: none;
   }
 
+  .dark .btn-icon-enhanced {
+    border: 1px solid #6b6660 !important;
+    background-color: #49453f !important;
+  }
+
   .btn-icon-enhanced:hover {
     border: 1px solid #c45c48 !important;
     background-color: rgba(196, 92, 72, 0.15) !important;
     color: #c45c48 !important;
     transform: scale(1.05);
+  }
+
+  .dark .btn-icon-enhanced:hover {
+    background-color: rgba(196, 92, 72, 0.25) !important;
   }
 
   .btn-icon-enhanced:active {
@@ -206,6 +215,11 @@
     overflow: hidden;
     border: 1px solid #e4dfd8 !important;
     background-color: #fdfcfb !important;
+  }
+
+  .dark .btn-outline-enhanced {
+    border: 1px solid #6b6660 !important;
+    background-color: #49453f !important;
   }
 
   .btn-outline-enhanced::before {
@@ -230,35 +244,17 @@
     top: 50%;
   }
 
-  /* Primary Button (Email) - Inverse colors with animated left border */
+  /* Primary Button (Email) - Pulse animation on hover */
   .btn-primary-enhanced {
-    position: relative;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: hidden;
-  }
-
-  .btn-primary-enhanced::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 3px;
-    height: 0;
-    background-color: #c45c48;
-    transform: translateY(-50%);
-    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 0;
-    z-index: 1;
   }
 
   .btn-primary-enhanced:hover {
-    background-color: #fdfcfb !important;
-    color: hsl(var(--primary)) !important;
-    border: 1px solid #e4dfd8 !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 0 1px rgba(196, 92, 72, 0.2);
   }
 
-  .btn-primary-enhanced:hover::before {
-    height: calc(100% - 4px);
-    top: 50%;
+  .btn-primary-enhanced:active {
+    transform: scale(0.98);
   }
 }

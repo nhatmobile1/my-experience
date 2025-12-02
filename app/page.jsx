@@ -1,6 +1,6 @@
 "use client";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -8,7 +8,13 @@ import { Github, Linkedin, Mail, Moon, Sun, FileText } from "lucide-react";
 import Link from "next/link";
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("about");
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
@@ -64,14 +70,17 @@ export default function Portfolio() {
                         size: "icon",
                         onClick: toggleTheme,
                         className: "btn-icon-enhanced",
-                        children:
-                          theme === "dark"
+                        children: mounted
+                          ? theme === "dark"
                             ? /*#__PURE__*/ _jsx(Sun, {
                                 className: "h-5 w-5",
                               })
                             : /*#__PURE__*/ _jsx(Moon, {
                                 className: "h-5 w-5",
-                              }),
+                              })
+                          : /*#__PURE__*/ _jsx("div", {
+                              className: "h-5 w-5",
+                            }),
                       }),
                     ],
                   }),
