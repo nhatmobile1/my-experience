@@ -6,7 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: 'https://my-experience-eight.vercel.app',
+  // Only use assetPrefix in production (Vercel), not in local dev
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://my-experience-eight.vercel.app' : undefined,
   basePath: '',
 }
 

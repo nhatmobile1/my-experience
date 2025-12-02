@@ -171,3 +171,94 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* Icon Button Hover (Theme Toggle & Summary) - Rounded square with border */
+  .btn-icon-enhanced {
+    width: 44px !important;
+    height: 44px !important;
+    flex-shrink: 0;
+    border-radius: 12px !important;
+    border: 1px solid #e4dfd8 !important;
+    background-color: #fdfcfb !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: none;
+  }
+
+  .btn-icon-enhanced:hover {
+    border: 1px solid #c45c48 !important;
+    background-color: rgba(196, 92, 72, 0.15) !important;
+    color: #c45c48 !important;
+    transform: scale(1.05);
+  }
+
+  .btn-icon-enhanced:active {
+    transform: scale(0.95);
+  }
+
+  /* Outline Buttons (GitHub & LinkedIn) - Animated left border from center */
+  .btn-outline-enhanced {
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    border: 1px solid #e4dfd8 !important;
+    background-color: #fdfcfb !important;
+  }
+
+  .btn-outline-enhanced::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3px;
+    height: 0;
+    background-color: #c45c48;
+    transform: translateY(-50%);
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 0;
+  }
+
+  .btn-outline-enhanced:hover {
+    border-color: #c45c48 !important;
+  }
+
+  .btn-outline-enhanced:hover::before {
+    height: calc(100% - 4px);
+    top: 50%;
+  }
+
+  /* Primary Button (Email) - Inverse colors with animated left border */
+  .btn-primary-enhanced {
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+  }
+
+  .btn-primary-enhanced::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 3px;
+    height: 0;
+    background-color: #c45c48;
+    transform: translateY(-50%);
+    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 0;
+    z-index: 1;
+  }
+
+  .btn-primary-enhanced:hover {
+    background-color: #fdfcfb !important;
+    color: hsl(var(--primary)) !important;
+    border: 1px solid #e4dfd8 !important;
+  }
+
+  .btn-primary-enhanced:hover::before {
+    height: calc(100% - 4px);
+    top: 50%;
+  }
+}

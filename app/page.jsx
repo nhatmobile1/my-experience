@@ -53,6 +53,7 @@ export default function Portfolio() {
                           variant: "outline",
                           size: "icon",
                           title: "View Summary for Recruiters",
+                          className: "btn-icon-enhanced",
                           children: /*#__PURE__*/ _jsx(FileText, {
                             className: "h-5 w-5",
                           }),
@@ -62,6 +63,7 @@ export default function Portfolio() {
                         variant: "ghost",
                         size: "icon",
                         onClick: toggleTheme,
+                        className: "btn-icon-enhanced",
                         children:
                           theme === "dark"
                             ? /*#__PURE__*/ _jsx(Sun, {
@@ -295,6 +297,7 @@ function AboutSection() {
             children: [
               /*#__PURE__*/ _jsx(Button, {
                 asChild: true,
+                className: "btn-primary-enhanced",
                 children: /*#__PURE__*/ _jsxs("a", {
                   href: "mailto:nhatmobile@gmail.com",
                   children: [
@@ -308,6 +311,7 @@ function AboutSection() {
               /*#__PURE__*/ _jsx(Button, {
                 variant: "outline",
                 asChild: true,
+                className: "btn-outline-enhanced",
                 children: /*#__PURE__*/ _jsxs("a", {
                   href: "https://github.com/nhatmobile1",
                   target: "_blank",
@@ -323,6 +327,7 @@ function AboutSection() {
               /*#__PURE__*/ _jsx(Button, {
                 variant: "outline",
                 asChild: true,
+                className: "btn-outline-enhanced",
                 children: /*#__PURE__*/ _jsxs("a", {
                   href: "https://www.linkedin.com/in/nt-tran/",
                   target: "_blank",
