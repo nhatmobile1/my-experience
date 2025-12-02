@@ -84,7 +84,7 @@ export default function SummaryPage() {
                                             children: "nhatmobile@gmail.com"
                                         }),
                                         /*#__PURE__*/ _jsx("span", {
-                                            children: "linkedin.com/in/nhattran"
+                                            children: "linkedin.com/in/nt-tran/"
                                         }),
                                         /*#__PURE__*/ _jsx("span", {
                                             children: "github.com/nhatmobile1"
