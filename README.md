@@ -51,15 +51,20 @@ npm run dev
 
 ```
 my-experience/
-├── app/
+├── app/                     # Next.js App Router
 │   ├── globals.css          # Global styles and custom animations
 │   ├── layout.jsx           # Root layout with theme provider
 │   ├── page.jsx             # Home page with experience content
 │   └── summary/
 │       └── page.jsx         # Recruiter summary page
 ├── components/
-│   └── ui/                  # Reusable UI components
-├── public/                  # Static assets
+│   └── ui/                  # Reusable UI components (shadcn/ui)
+├── hooks/                   # Custom React hooks
+│   ├── use-mobile.jsx       # Mobile viewport detection
+│   └── use-toast.jsx        # Toast notifications
+├── lib/                     # Utility functions
+│   └── utils.jsx            # Helper functions and utilities
+├── public/                  # Static assets (images, icons)
 └── next.config.mjs          # Next.js configuration
 ```
 
