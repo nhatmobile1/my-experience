@@ -54,7 +54,7 @@ export default function Portfolio() {
                     className: "flex gap-2 shrink-0",
                     children: [
                       /*#__PURE__*/ _jsx(Link, {
-                        href: "/summary",
+                        href: "/experience/summary",
                         children: /*#__PURE__*/ _jsx(Button, {
                           variant: "outline",
                           size: "icon",
