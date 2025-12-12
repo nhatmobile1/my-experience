@@ -3,7 +3,6 @@ import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Download, Printer, ArrowLeft } from "lucide-react";
-import Link from "next/link";
 export default function SummaryPage() {
     const handlePrint = ()=>{
         window.print();
@@ -18,8 +17,8 @@ export default function SummaryPage() {
                     children: /*#__PURE__*/ _jsxs("div", {
                         className: "flex items-center justify-between max-w-5xl mx-auto",
                         children: [
-                            /*#__PURE__*/ _jsx(Link, {
-                                href: "/",
+                            /*#__PURE__*/ _jsx("a", {
+                                href: "https://www.projektspectre.com/experience",
                                 children: /*#__PURE__*/ _jsxs(Button, {
                                     variant: "ghost",
                                     size: "sm",
