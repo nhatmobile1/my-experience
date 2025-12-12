@@ -5,7 +5,6 @@ import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Github, Linkedin, Mail, Moon, Sun, FileText } from "lucide-react";
-import Link from "next/link";
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("about");
   const [mounted, setMounted] = useState(false);
@@ -53,8 +52,8 @@ export default function Portfolio() {
                   /*#__PURE__*/ _jsxs("div", {
                     className: "flex gap-2 shrink-0",
                     children: [
-                      /*#__PURE__*/ _jsx(Link, {
-                        href: "/summary",
+                      /*#__PURE__*/ _jsx("a", {
+                        href: "https://www.projektspectre.com/experience/summary",
                         children: /*#__PURE__*/ _jsx(Button, {
                           variant: "outline",
                           size: "icon",
