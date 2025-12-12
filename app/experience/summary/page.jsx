@@ -19,7 +19,7 @@ export default function SummaryPage() {
                         className: "flex items-center justify-between max-w-5xl mx-auto",
                         children: [
                             /*#__PURE__*/ _jsx(Link, {
-                                href: "/",
+                                href: "/experience",
                                 children: /*#__PURE__*/ _jsxs(Button, {
                                     variant: "ghost",
                                     size: "sm",
@@ -27,7 +27,7 @@ export default function SummaryPage() {
                                         /*#__PURE__*/ _jsx(ArrowLeft, {
                                             className: "mr-2 h-4 w-4"
                                         }),
-                                        "Back to Portfolio"
+                                        "Back to Experience"
                                     ]
                                 })
                             }),
