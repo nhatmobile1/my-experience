@@ -15,7 +15,7 @@ export default function SummaryPage() {
                 children: /*#__PURE__*/ _jsx("div", {
                     className: "container mx-auto px-4 py-3",
                     children: /*#__PURE__*/ _jsxs("div", {
-                        className: "flex items-center justify-between max-w-5xl mx-auto",
+                        className: "flex items-center justify-between max-w-5xl mx-auto gap-2",
                         children: [
                             /*#__PURE__*/ _jsx("a", {
                                 href: "https://www.nhattran.me/",
@@ -24,9 +24,12 @@ export default function SummaryPage() {
                                     size: "sm",
                                     children: [
                                         /*#__PURE__*/ _jsx(ArrowLeft, {
-                                            className: "mr-2 h-4 w-4"
+                                            className: "h-4 w-4 sm:mr-2"
                                         }),
-                                        "Back to Experience"
+                                        /*#__PURE__*/ _jsx("span", {
+                                            className: "hidden sm:inline",
+                                            children: "Back to Experience"
+                                        })
                                     ]
                                 })
                             }),
@@ -38,9 +41,12 @@ export default function SummaryPage() {
                                         size: "sm",
                                         children: [
                                             /*#__PURE__*/ _jsx(Printer, {
-                                                className: "mr-2 h-4 w-4"
+                                                className: "h-4 w-4 sm:mr-2"
                                             }),
-                                            "Print"
+                                            /*#__PURE__*/ _jsx("span", {
+                                                className: "hidden sm:inline",
+                                                children: "Print"
+                                            })
                                         ]
                                     }),
                                     /*#__PURE__*/ _jsxs(Button, {
@@ -49,9 +55,12 @@ export default function SummaryPage() {
                                         size: "sm",
                                         children: [
                                             /*#__PURE__*/ _jsx(Download, {
-                                                className: "mr-2 h-4 w-4"
+                                                className: "h-4 w-4 sm:mr-2"
                                             }),
-                                            "Download PDF"
+                                            /*#__PURE__*/ _jsx("span", {
+                                                className: "hidden sm:inline",
+                                                children: "Download PDF"
+                                            })
                                         ]
                                     })
                                 ]
