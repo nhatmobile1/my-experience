@@ -18,7 +18,7 @@ export default function SummaryPage() {
                         className: "flex items-center justify-between max-w-5xl mx-auto",
                         children: [
                             /*#__PURE__*/ _jsx("a", {
-                                href: "https://www.projektspectre.com/experience",
+                                href: "https://www.nhattran.me/",
                                 children: /*#__PURE__*/ _jsxs(Button, {
                                     variant: "ghost",
                                     size: "sm",

@@ -53,7 +53,7 @@ export default function Portfolio() {
                     className: "flex gap-2 shrink-0",
                     children: [
                       /*#__PURE__*/ _jsx("a", {
-                        href: "https://www.projektspectre.com/experience/summary",
+                        href: "https://www.nhattran.me/summary",
                         children: /*#__PURE__*/ _jsx(Button, {
                           variant: "outline",
                           size: "icon",
