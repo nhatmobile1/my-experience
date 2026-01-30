@@ -4,41 +4,41 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Nhat's Brand Colors - Terracotta Accent */
-  --accent-50: #fdf5f3;
-  --accent-100: #fae8e4;
-  --accent-200: #f5d1c8;
-  --accent-300: #efb3a3;
-  --accent-400: #e38972;
-  --accent-500: #c45c48;
-  --accent-600: #a74a3a;
-  --accent-700: #8a3c2f;
-  --accent-800: #6d3026;
-  --accent-900: #57261f;
+  /* Professional Blue Accent - Subtle & Readable */
+  --accent-50: #f0f4f8;
+  --accent-100: #d9e2ec;
+  --accent-200: #bcccdc;
+  --accent-300: #9fb3c8;
+  --accent-400: #829ab1;
+  --accent-500: #627d98;
+  --accent-600: #486581;
+  --accent-700: #334e68;
+  --accent-800: #243b53;
+  --accent-900: #102a43;
 
-  /* Warm Neutral Scale */
-  --neutral-50: #fdfcfb;
-  --neutral-100: #f8f6f3;
-  --neutral-200: #f0ede8;
-  --neutral-300: #e3dfd8;
-  --neutral-400: #d1ccc3;
-  --neutral-500: #b8b2a7;
-  --neutral-600: #948e83;
-  --neutral-700: #6b6660;
-  --neutral-800: #49453f;
-  --neutral-900: #2d2a26;
+  /* Cool Neutral Scale */
+  --neutral-50: #ffffff;
+  --neutral-100: #f7f7f8;
+  --neutral-200: #e8e8eb;
+  --neutral-300: #d1d1d6;
+  --neutral-400: #a1a1aa;
+  --neutral-500: #71717a;
+  --neutral-600: #52525b;
+  --neutral-700: #3f3f46;
+  --neutral-800: #27272a;
+  --neutral-900: #18181b;
 
-  /* Sage Green (Secondary) */
-  --sage-50: #f5f9f5;
-  --sage-100: #e8f2e6;
-  --sage-200: #d4e6cf;
-  --sage-300: #b5d4ad;
-  --sage-400: #8fbd84;
-  --sage-500: #6a9e5f;
-  --sage-600: #56824c;
-  --sage-700: #45673d;
-  --sage-800: #364f30;
-  --sage-900: #2a3e26;
+  /* Slate Secondary */
+  --sage-50: #f8fafc;
+  --sage-100: #f1f5f9;
+  --sage-200: #e2e8f0;
+  --sage-300: #cbd5e1;
+  --sage-400: #94a3b8;
+  --sage-500: #64748b;
+  --sage-600: #475569;
+  --sage-700: #334155;
+  --sage-800: #1e293b;
+  --sage-900: #0f172a;
 
   /* Functional Colors */
   --success: #28a745;
@@ -75,7 +75,7 @@
   --chart-3: oklch(from var(--info) l c h);
   --chart-4: oklch(from var(--warning) l c h);
   --chart-5: oklch(from var(--accent-400) l c h);
-  --radius: 0.5rem;
+  --radius: 0.375rem;
   --sidebar: oklch(from var(--neutral-50) l c h);
   --sidebar-foreground: oklch(from var(--neutral-900) l c h);
   --sidebar-primary: oklch(from var(--accent-600) l c h);
@@ -172,54 +172,93 @@
   }
 }
 
+/* Subtle entrance animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Staggered delays for cards */
+.stagger-1 { animation-delay: 0.05s; opacity: 0; }
+.stagger-2 { animation-delay: 0.1s; opacity: 0; }
+.stagger-3 { animation-delay: 0.15s; opacity: 0; }
+.stagger-4 { animation-delay: 0.2s; opacity: 0; }
+.stagger-5 { animation-delay: 0.25s; opacity: 0; }
+.stagger-6 { animation-delay: 0.3s; opacity: 0; }
+
 @layer components {
-  /* Icon Button Hover (Theme Toggle & Summary) - Rounded square with border */
+  /* Icon Button Hover (Theme Toggle & Summary) */
   .btn-icon-enhanced {
-    width: 44px !important;
-    height: 44px !important;
+    width: 40px !important;
+    height: 40px !important;
     flex-shrink: 0;
-    border-radius: 12px !important;
-    border: 1px solid #e4dfd8 !important;
-    background-color: #fdfcfb !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--neutral-300) !important;
+    background-color: var(--neutral-50) !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.2s ease;
     box-shadow: none;
   }
 
   .dark .btn-icon-enhanced {
-    border: 1px solid #6b6660 !important;
-    background-color: #49453f !important;
+    border: 1px solid var(--neutral-700) !important;
+    background-color: var(--neutral-800) !important;
   }
 
   .btn-icon-enhanced:hover {
-    border: 1px solid #c45c48 !important;
-    background-color: rgba(196, 92, 72, 0.15) !important;
-    color: #c45c48 !important;
-    transform: scale(1.05);
+    border-color: var(--accent-500) !important;
+    background-color: var(--accent-50) !important;
+    color: var(--accent-600) !important;
   }
 
   .dark .btn-icon-enhanced:hover {
-    background-color: rgba(196, 92, 72, 0.25) !important;
+    background-color: var(--accent-900) !important;
+    color: var(--accent-300) !important;
   }
 
   .btn-icon-enhanced:active {
-    transform: scale(0.95);
+    transform: scale(0.97);
   }
 
-  /* Outline Buttons (GitHub & LinkedIn) - Animated left border from center */
+  /* Outline Buttons (GitHub & LinkedIn) */
   .btn-outline-enhanced {
     position: relative;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.2s ease;
     overflow: hidden;
-    border: 1px solid #e4dfd8 !important;
-    background-color: #fdfcfb !important;
+    border: 1px solid var(--neutral-300) !important;
+    background-color: var(--neutral-50) !important;
   }
 
   .dark .btn-outline-enhanced {
-    border: 1px solid #6b6660 !important;
-    background-color: #49453f !important;
+    border: 1px solid var(--neutral-700) !important;
+    background-color: var(--neutral-800) !important;
   }
 
   .btn-outline-enhanced::before {
@@ -227,34 +266,37 @@
     position: absolute;
     left: 0;
     top: 50%;
-    width: 3px;
+    width: 2px;
     height: 0;
-    background-color: #c45c48;
+    background-color: var(--accent-500);
     transform: translateY(-50%);
-    transition: height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 0;
+    transition: height 0.2s ease;
   }
 
   .btn-outline-enhanced:hover {
-    border-color: #c45c48 !important;
+    border-color: var(--accent-500) !important;
+    color: var(--accent-600) !important;
+  }
+
+  .dark .btn-outline-enhanced:hover {
+    color: var(--accent-300) !important;
   }
 
   .btn-outline-enhanced:hover::before {
-    height: calc(100% - 4px);
-    top: 50%;
+    height: calc(100% - 8px);
   }
 
-  /* Primary Button (Email) - Pulse animation on hover */
+  /* Primary Button (Email) */
   .btn-primary-enhanced {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.2s ease;
   }
 
   .btn-primary-enhanced:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 0 1px rgba(196, 92, 72, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(98, 125, 152, 0.25);
   }
 
   .btn-primary-enhanced:active {
-    transform: scale(0.98);
+    transform: translateY(0);
   }
 }

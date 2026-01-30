@@ -75,7 +75,7 @@ export default function SummaryPage() {
         className: "container mx-auto px-4 py-8 print:py-0",
         children: /*#__PURE__*/ _jsxs("div", {
           className:
-            "max-w-5xl mx-auto bg-card dark:bg-card print:bg-white rounded-lg shadow-sm print:shadow-none p-8 print:p-0",
+            "max-w-5xl mx-auto bg-card dark:bg-card print:bg-white rounded-md shadow-sm print:shadow-none p-8 print:p-0",
           children: [
             /*#__PURE__*/ _jsxs("header", {
               className:

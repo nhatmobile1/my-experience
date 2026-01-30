@@ -25,7 +25,7 @@ export default function Portfolio() {
         className: "max-w-6xl mx-auto",
         children: [
           /*#__PURE__*/ _jsxs("header", {
-            className: "mb-16",
+            className: "mb-16 animate-fade-in",
             children: [
               /*#__PURE__*/ _jsxs("div", {
                 className: "flex items-start justify-between mb-8",
@@ -203,7 +203,7 @@ export default function Portfolio() {
 }
 function AboutSection() {
   return /*#__PURE__*/ _jsxs("div", {
-    className: "space-y-8",
+    className: "space-y-8 animate-fade-in",
     children: [
       /*#__PURE__*/ _jsxs("section", {
         children: [
@@ -268,11 +268,11 @@ function AboutSection() {
                 title: "Demand Generation",
                 desc: "Lead conversion strategies and pipeline acceleration",
               },
-            ].map((expertise) =>
+            ].map((expertise, index) =>
               /*#__PURE__*/ _jsxs(
                 "div",
                 {
-                  className: "p-4 bg-secondary/50 rounded-lg",
+                  className: `p-4 bg-secondary/50 rounded-md animate-fade-in-up stagger-${index + 1}`,
                   children: [
                     /*#__PURE__*/ _jsx("h3", {
                       className: "font-semibold text-base mb-1",
@@ -431,12 +431,12 @@ function ExperienceSection() {
     },
   ];
   return /*#__PURE__*/ _jsx("div", {
-    className: "space-y-6",
+    className: "space-y-6 animate-fade-in",
     children: experiences.map((exp, index) =>
       /*#__PURE__*/ _jsxs(
         Card,
         {
-          className: "p-6 hover:border-foreground/20 transition-colors",
+          className: `p-6 hover:border-foreground/20 transition-colors animate-fade-in-up stagger-${index + 1}`,
           children: [
             /*#__PURE__*/ _jsxs("div", {
               className:
@@ -495,7 +495,7 @@ function ExperienceSection() {
                   "span",
                   {
                     className:
-                      "px-2.5 py-1 bg-primary/10 text-primary rounded text-xs font-medium",
+                      "px-2.5 py-1 bg-primary/10 text-primary rounded-sm text-xs font-medium",
                     children: tech,
                   },
                   tech
@@ -561,12 +561,12 @@ function ProjectsSection() {
     },
   ];
   return /*#__PURE__*/ _jsx("div", {
-    className: "grid grid-cols-1 md:grid-cols-2 gap-6",
+    className: "grid grid-cols-1 md:grid-cols-2 gap-6 animate-fade-in",
     children: projects.map((project, index) =>
       /*#__PURE__*/ _jsxs(
         Card,
         {
-          className: "p-6 group hover:border-foreground/20 transition-all",
+          className: `p-6 group hover:border-foreground/20 transition-all animate-fade-in-up stagger-${index + 1}`,
           children: [
             /*#__PURE__*/ _jsxs("div", {
               className: "mb-2",
@@ -597,7 +597,7 @@ function ProjectsSection() {
                   "span",
                   {
                     className:
-                      "px-2.5 py-1 bg-secondary text-secondary-foreground rounded text-xs",
+                      "px-2.5 py-1 bg-secondary text-secondary-foreground rounded-sm text-xs",
                     children: tag,
                   },
                   tag
