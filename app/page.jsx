@@ -367,6 +367,10 @@ function ExperienceSection() {
         "Developed standardized processes for campaign and channel management, creating automated lead nurturing workflows that enhanced demand generation",
         "Created comprehensive documentation for marketing systems and processes, streamlining onboarding and maintaining operational consistency",
         "Established ongoing data health monitoring practices, ensuring accurate data quality for effective marketing tactics and reliable reporting",
+        "Driving 95% data consistency across Marketo-SFDC-Airtable with automated data quality monitoring and weekly scorecards tracking critical metrics",
+        "Leading AI workflow adoption across DG and MOps, launching 4 production AI workflows including Plan on a Page, persona research, campaign brief generator, and post-event analysis",
+        "Automating high-volume manual processes to free 20% of team capacity for strategic initiatives, including list imports, MQL/MSL updates, and campaign syncing",
+        "Reducing campaign setup-to-launch time by 30% through standardized workflows and building campaign process monitoring systems",
       ],
       technologies: [
         "Marketo",
@@ -374,6 +378,8 @@ function ExperienceSection() {
         "Data Management",
         "Process Automation",
         "Vendor Management",
+        "AI Workflows",
+        "Airtable",
       ],
     },
     {
