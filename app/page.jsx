@@ -91,7 +91,7 @@ export default function Portfolio() {
                 children: [
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("about"),
-                    className: `pb-3 px-1 font-medium transition-colors relative ${
+                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "about"
                         ? "text-foreground"
                         : "text-muted-foreground hover:text-foreground"
@@ -101,13 +101,13 @@ export default function Portfolio() {
                       activeTab === "about" &&
                         /*#__PURE__*/ _jsx("div", {
                           className:
-                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground",
+                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
                         }),
                     ],
                   }),
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("experience"),
-                    className: `pb-3 px-1 font-medium transition-colors relative ${
+                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "experience"
                         ? "text-foreground"
                         : "text-muted-foreground hover:text-foreground"
@@ -117,13 +117,13 @@ export default function Portfolio() {
                       activeTab === "experience" &&
                         /*#__PURE__*/ _jsx("div", {
                           className:
-                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground",
+                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
                         }),
                     ],
                   }),
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("projects"),
-                    className: `pb-3 px-1 font-medium transition-colors relative ${
+                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "projects"
                         ? "text-foreground"
                         : "text-muted-foreground hover:text-foreground"
@@ -133,7 +133,7 @@ export default function Portfolio() {
                       activeTab === "projects" &&
                         /*#__PURE__*/ _jsx("div", {
                           className:
-                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground",
+                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
                         }),
                     ],
                   }),
@@ -158,7 +158,7 @@ export default function Portfolio() {
               children: [
                 /*#__PURE__*/ _jsx("p", {
                   className: "text-sm text-muted-foreground",
-                  children: "© 2025 Nhat Tran. Built with Next.js",
+                  children: "© 2026 Nhat Tran. Built with Next.js",
                 }),
                 /*#__PURE__*/ _jsxs("div", {
                   className: "flex items-center gap-4",
@@ -167,8 +167,9 @@ export default function Portfolio() {
                       href: "https://github.com/nhatmobile1",
                       target: "_blank",
                       rel: "noopener noreferrer",
+                      "aria-label": "GitHub profile",
                       className:
-                        "text-muted-foreground hover:text-foreground transition-colors",
+                        "text-muted-foreground hover:text-foreground social-link",
                       children: /*#__PURE__*/ _jsx(Github, {
                         className: "h-5 w-5",
                       }),
@@ -177,16 +178,18 @@ export default function Portfolio() {
                       href: "https://www.linkedin.com/in/nt-tran/",
                       target: "_blank",
                       rel: "noopener noreferrer",
+                      "aria-label": "LinkedIn profile",
                       className:
-                        "text-muted-foreground hover:text-foreground transition-colors",
+                        "text-muted-foreground hover:text-foreground social-link",
                       children: /*#__PURE__*/ _jsx(Linkedin, {
                         className: "h-5 w-5",
                       }),
                     }),
                     /*#__PURE__*/ _jsx("a", {
                       href: "mailto:nhatmobile@gmail.com",
+                      "aria-label": "Send email",
                       className:
-                        "text-muted-foreground hover:text-foreground transition-colors",
+                        "text-muted-foreground hover:text-foreground social-link",
                       children: /*#__PURE__*/ _jsx(Mail, {
                         className: "h-5 w-5",
                       }),
@@ -443,7 +446,7 @@ function ExperienceSection() {
       /*#__PURE__*/ _jsxs(
         Card,
         {
-          className: `p-6 hover:border-foreground/20 transition-colors animate-fade-in-up stagger-${index + 1}`,
+          className: `p-6 hover:border-foreground/20 transition-colors animate-fade-in-up card-hover stagger-${index + 1}`,
           children: [
             /*#__PURE__*/ _jsxs("div", {
               className:
@@ -587,7 +590,7 @@ function ProjectsSection() {
       /*#__PURE__*/ _jsxs(
         Card,
         {
-          className: `p-6 group hover:border-foreground/20 transition-all animate-fade-in-up stagger-${index + 1}`,
+          className: `p-6 group hover:border-foreground/20 transition-all animate-fade-in-up card-hover stagger-${index + 1}`,
           children: [
             /*#__PURE__*/ _jsxs("div", {
               className: "mb-2",
