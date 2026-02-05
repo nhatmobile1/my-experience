@@ -220,7 +220,7 @@ function AboutSection() {
               /*#__PURE__*/ _jsx("p", {
                 className: "text-base leading-relaxed text-muted-foreground",
                 children:
-                  "I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, systems integrations, and process optimization.",
+                  "I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, systems integrations, data governance, AI workflow implementation, and process optimization.",
               }),
               /*#__PURE__*/ _jsx("p", {
                 className:

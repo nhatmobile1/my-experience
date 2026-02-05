@@ -24,13 +24,13 @@ Marketing Operations & Technology Leader
 
 ### Bio - Version 1: Concise (2 paragraphs)
 
-I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, system integration, and process optimization—turning complex marketing technology into streamlined operations.
+I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, systems integrations, data governance, AI workflow implementation, and process optimization—turning complex marketing technology into streamlined operations.
 
 My focus is on creating impact through better infrastructure. Whether I'm implementing automated nurture streams that improve customer adoption from 50% to 95%, consolidating vendor tools to reduce costs, or building lead management processes that dramatically accelerate conversion times, I help marketing teams work smarter and deliver better results.
 
 ### Bio - Version 2: Detailed (3 paragraphs) - RECOMMENDED
 
-I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, system integration, and process optimization.
+I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, systems integrations, data governance, AI workflow implementation, and process optimization.
 
 My approach centers on transforming complex marketing technology stacks into streamlined operations. I've implemented automated lead nurturing systems that improved conversion efficiency, consolidated vendor tools to achieve significant cost savings, and built comprehensive documentation systems that enable teams to operate more effectively. I'm a Marketo Certified Expert with deep experience across the full marketing operations spectrum.
 
