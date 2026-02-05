@@ -118,7 +118,7 @@ export default function SummaryPage() {
                   className:
                     "text-base leading-relaxed text-muted-foreground print:text-gray-800",
                   children:
-                    "Marketing operations professional with 9 years of experience building efficient systems that drive measurable results. Specialized in marketing automation, system integration, and process optimization at leading technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of implementing automated lead nurturing systems, consolidating vendor tools for significant cost savings, and improving key metrics like customer seat usage from 50-60% to 95%.",
+                    "Marketing operations leader with 9 years of experience building scalable systems that drive measurable results. Specialized in marketing automation, data governance, AI workflow adoption, and cross-functional partnership with Revenue Operations at technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of architecting global privacy compliance frameworks (GDPR/CASL), consolidating vendor tools for significant cost savings, and improving customer seat utilization from 50-60% to 95%.",
                 }),
               ],
             }),
