@@ -118,7 +118,7 @@ export default function SummaryPage() {
                   className:
                     "text-base leading-relaxed text-muted-foreground print:text-gray-800",
                   children:
-                    "Marketing operations leader with 9 years of experience building scalable systems that drive measurable results. Specialized in marketing automation, data governance, AI workflow adoption, and cross-functional partnership with Revenue Operations at technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of architecting global privacy compliance frameworks (GDPR/CASL), consolidating vendor tools for significant cost savings, and improving customer seat utilization from 50-60% to 95%.",
+                    "Marketing operations leader with 9 years of experience building systems that drive measurable results. Specialized in marketing automation, data governance, AI workflow implementation, and collaboration with Marketing, Sales, Operations, and Customer Success teams at technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of building global privacy compliance systems (GDPR/CASL), consolidating vendor tools for substantial cost savings, and designing customer lifecycle programs that drove revenue growth and product adoption.",
                 }),
               ],
             }),
@@ -139,7 +139,7 @@ export default function SummaryPage() {
                     "Data Governance & Quality",
                     "Privacy Compliance (GDPR/CASL)",
                     "Vendor & Cost Management",
-                    "Revenue Operations Partnership",
+                    "Cross-Functional GTM Leadership",
                     "System Integration",
                     "Attribution & Analytics",
                     "Account-Based Marketing",
@@ -227,7 +227,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Establish data governance and quality monitoring practices ensuring cross-system consistency for attribution and pipeline analytics",
+                                    "Establish data governance and quality monitoring practices that maintain cross-system consistency for attribution and revenue analytics",
                                 }),
                               ],
                             }),
@@ -306,7 +306,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built multi-touch attribution framework for pipeline reporting and centralized nurture architecture with prioritization segmentation",
+                                    "Built multi-touch attribution model for revenue reporting and centralized nurture architecture with prioritization segmentation",
                                 }),
                               ],
                             }),
@@ -373,7 +373,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Designed and launched customer lifecycle nurture program driving seat utilization from 50-60% to 95%",
+                                    "Designed and launched customer lifecycle nurture program that delivered notable gains in product adoption and retention",
                                 }),
                               ],
                             }),
@@ -490,7 +490,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Increased customer seat usage from 50-60% to 95% at Malwarebytes through strategic nurture program design and personalized content delivery",
+                            "Designed customer lifecycle nurture program at Malwarebytes that delivered substantial gains in product adoption and retention through strategic engagement and personalized content delivery",
                         }),
                       ],
                     }),
@@ -522,7 +522,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Implemented LeanData and automated processes that dramatically reduced lead-to-conversion times, accelerating pipeline velocity",
+                            "Implemented LeanData and automated processes that dramatically reduced lead-to-conversion times, accelerating funnel velocity",
                         }),
                       ],
                     }),

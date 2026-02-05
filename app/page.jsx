@@ -226,13 +226,13 @@ function AboutSection() {
                 className:
                   "text-base leading-relaxed text-muted-foreground mt-4",
                 children:
-                  "My approach centers on transforming complex marketing technology stacks into streamlined operations. I've implemented automated lead nurturing systems that improved conversion efficiency, consolidated vendor tools to achieve significant cost savings, and built comprehensive documentation systems that enable teams to operate more effectively. I'm a Marketo Certified Expert with deep experience across the full marketing operations spectrum.",
+                  "My approach centers on transforming complex marketing technology stacks into streamlined operations. I've implemented automated lead nurturing systems that improved conversion efficiency, consolidated vendor tools to achieve substantial cost savings, and built documentation systems that help teams operate more effectively. I'm a Marketo Certified Expert with deep experience across the full marketing operations spectrum.",
               }),
               /*#__PURE__*/ _jsx("p", {
                 className:
                   "text-base leading-relaxed text-muted-foreground mt-4",
                 children:
-                  "Whether it's designing segmentation strategies, integrating CRM platforms, optimizing lead lifecycle management, or creating data health monitoring practices, I focus on building infrastructure that reduces manual work and enables data-driven decision making. My work helps marketing teams move faster, spend smarter, and measure what matters.",
+                  "Whether it's designing segmentation strategies, integrating CRM platforms, improving lead lifecycle management, or creating data health monitoring practices, I focus on building infrastructure that reduces manual work and supports data-driven decision making. My work helps marketing teams move faster, spend smarter, and measure what matters.",
               }),
             ],
           }),
@@ -253,11 +253,11 @@ function AboutSection() {
               },
               {
                 title: "System Integration",
-                desc: "Seamless data flow across marketing tech stacks and CRM platforms",
+                desc: "Connecting marketing tech stacks and CRM platforms for reliable data flow",
               },
               {
                 title: "Data & Analytics",
-                desc: "Campaign reporting, data health monitoring, and performance optimization",
+                desc: "Campaign reporting, data health monitoring, and performance analysis",
               },
               {
                 title: "Process Optimization",
@@ -265,11 +265,11 @@ function AboutSection() {
               },
               {
                 title: "Vendor Management",
-                desc: "Contract negotiation, tool consolidation, and cost optimization",
+                desc: "Contract negotiation, tool consolidation, and budget management",
               },
               {
                 title: "Demand Generation",
-                desc: "Lead conversion strategies and pipeline acceleration",
+                desc: "Lead conversion strategies and funnel acceleration",
               },
             ].map((expertise, index) =>
               /*#__PURE__*/ _jsxs(
@@ -366,12 +366,12 @@ function ExperienceSection() {
       company: "Benchling",
       period: "February 2022 — Present",
       highlights: [
-        "Own the marketing technology stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations to optimize performance and reduce operational costs",
+        "Own the marketing technology stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations to improve performance and reduce operational costs",
         "Architect scalable campaign operations framework with standardized intake workflows, execution playbooks, and post-campaign analysis across Marketo, Salesforce, and Airtable",
-        "Establish data governance and quality monitoring practices ensuring cross-system consistency for reliable attribution, funnel reporting, and pipeline analytics",
+        "Establish data governance and quality monitoring practices that maintain cross-system consistency for reliable attribution, funnel reporting, and revenue analytics",
         "Drive AI and automation adoption across marketing operations, implementing workflows for campaign planning, audience research, and performance analysis",
-        "Partner cross-functionally with Demand Generation, Sales Operations, and Analytics teams to optimize lead flow architecture and improve funnel velocity",
-        "Build self-service documentation and enablement programs to scale marketing operations capabilities across the organization",
+        "Partner with Demand Generation, Sales Operations, and Analytics teams to refine lead flow architecture and improve funnel velocity",
+        "Build self-service documentation and training programs to scale marketing operations capabilities across the organization",
       ],
       technologies: [
         "Marketo",
@@ -390,9 +390,9 @@ function ExperienceSection() {
       period: "July 2019 — February 2022",
       highlights: [
         "Architected global privacy compliance framework for GDPR and CASL with automated consent management, expiration tracking, and region-based segmentation",
-        "Designed lead lifecycle and scoring system with automated routing logic, MQL qualification triggers, and seamless CRM integration for sales handoff",
-        "Built multi-touch attribution framework capturing lead source data across the customer journey for pipeline reporting and channel optimization",
-        "Developed centralized nurture architecture with prioritization segmentation ensuring proper audience management and preventing program overlap",
+        "Designed lead lifecycle and scoring system with automated routing logic, MQL qualification triggers, and CRM integration for sales handoff",
+        "Built multi-touch attribution model capturing lead source data across the customer journey for revenue reporting and channel performance",
+        "Developed centralized nurture architecture with prioritization segmentation for proper audience management and preventing program overlap",
         "Managed marketing automation platform performance, led QA protocols for campaign execution, and partnered with Sales and Product on GTM initiatives",
       ],
       technologies: [
@@ -412,7 +412,7 @@ function ExperienceSection() {
         "Built campaign operations infrastructure from the ground up, implementing intake workflows, SLA management, and QA protocols for marketing request processing",
         "Implemented lead routing and scoring system using LeanData, optimizing lead-to-sales handoff times and improving sales team response rates",
         "Designed and launched customer lifecycle nurture program that drove significant improvements in product adoption and seat utilization",
-        "Created operational playbooks and training programs to enable the marketing team on automation best practices and platform capabilities",
+        "Created operational playbooks and training programs to upskill the marketing team on automation best practices and platform capabilities",
       ],
       technologies: [
         "LeanData",
@@ -430,7 +430,7 @@ function ExperienceSection() {
         "Executed multi-channel demand generation campaigns in Marketo supporting pipeline targets across email, webinar, and digital channels",
         "Built and optimized email nurture streams with audience segmentation strategies to improve engagement metrics and conversion rates",
         "Managed webinar programs end-to-end including promotion workflows, registration tracking, and post-event follow-up automation",
-        "Partnered with Sales Development on account-based marketing initiatives, lead qualification criteria, and handoff process optimization",
+        "Partnered with Sales Development on account-based marketing initiatives, lead qualification criteria, and handoff process improvements",
       ],
       technologies: [
         "Demand Generation",
