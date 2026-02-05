@@ -387,16 +387,17 @@ function ExperienceSection() {
       company: "Intercom",
       period: "July 2019 — February 2022",
       highlights: [
-        "Developed sophisticated segmentation strategies and automated campaign workflows including data mapping, user journeys, and triggered email sequences",
-        "Managed the marketing automation platform and integrated multiple systems to optimize marketing operations and improve campaign execution efficiency",
-        "Maintained the accuracy and health of prospect and customer databases while monitoring system metrics to track usage trends and enable data-driven decision making",
+        "Architected global privacy compliance framework for GDPR and CASL with automated consent management and expiration tracking",
+        "Designed lead lifecycle processing system with automated routing, MQL qualification, and Salesforce integration",
+        "Developed multi-touch attribution framework for lead source categorization and pipeline analysis",
+        "Built centralized nurture management system with prioritization segmentation across all engagement programs",
       ],
       technologies: [
-        "Marketing Automation",
-        "Segmentation",
-        "Email Marketing",
-        "System Integration",
-        "Analytics",
+        "Marketo",
+        "Salesforce",
+        "Privacy Compliance",
+        "Lead Lifecycle",
+        "Attribution",
       ],
     },
     {
@@ -533,11 +534,25 @@ function ProjectsSection() {
       tags: ["Marketing Automation", "Lead Conversion", "Process Design"],
     },
     {
-      title: "Advanced Segmentation & Campaign Automation",
+      title: "Global Privacy Compliance Framework",
       company: "Intercom",
       description:
-        "Developed sophisticated segmentation strategies and automated campaign workflows including data mapping, user journeys, drip campaigns, and triggered email sequences that significantly improved engagement and conversion rates.",
-      tags: ["Segmentation", "Email Marketing", "Workflow Automation"],
+        "Architected GDPR and CASL compliance framework with automated consent management, expiration tracking, and region-based segmentation to ensure marketing compliance across all markets.",
+      tags: ["Privacy Compliance", "GDPR/CASL", "Marketo"],
+    },
+    {
+      title: "Lead Lifecycle & Attribution System",
+      company: "Intercom",
+      description:
+        "Designed lead lifecycle processing with automated MQL qualification and Salesforce integration. Built multi-touch attribution framework for lead source categorization and pipeline analysis.",
+      tags: ["Lead Lifecycle", "Attribution", "Salesforce"],
+    },
+    {
+      title: "Centralized Nurture Architecture",
+      company: "Intercom",
+      description:
+        "Built nurture management system with prioritization segmentation ensuring mutually exclusive audiences across all engagement programs with automated qualification workflows.",
+      tags: ["Nurture Programs", "Segmentation", "Automation"],
     },
     {
       title: "Customer Nurture Stream Launch",
