@@ -201,7 +201,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Led strategic vendor consolidation initiative with significant cost savings through contract negotiation and marketing technology ecosystem streamlining",
+                                    "Led vendor consolidation initiative achieving significant cost savings while streamlining the marketing technology ecosystem",
                                 }),
                               ],
                             }),
@@ -214,7 +214,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Developed standardized processes for campaign and channel management, creating automated lead nurturing workflows that enhanced demand generation",
+                                    "Driving 95% data consistency across systems with automated monitoring and weekly scorecards",
                                 }),
                               ],
                             }),
@@ -227,7 +227,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Created comprehensive documentation for marketing systems and processes, streamlining onboarding and maintaining operational consistency",
+                                    "Leading AI workflow adoption across marketing, launching production workflows for campaign planning and analysis",
                                 }),
                               ],
                             }),
@@ -240,7 +240,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Established ongoing data health monitoring practices, ensuring accurate data quality for effective marketing tactics and reliable reporting",
+                                    "Reducing campaign setup time by 30% and automating manual processes to free 20% of team capacity",
                                 }),
                               ],
                             }),
@@ -280,7 +280,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Developed sophisticated segmentation strategies and automated campaign workflows including data mapping, user journeys, and triggered email sequences",
+                                    "Architected global privacy compliance framework for GDPR and CASL with automated consent management",
                                 }),
                               ],
                             }),
@@ -293,7 +293,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Managed marketing automation platform and integrated multiple systems to optimize marketing operations and improve campaign execution efficiency",
+                                    "Designed lead lifecycle processing system with automated routing, MQL qualification, and Salesforce integration",
                                 }),
                               ],
                             }),
@@ -306,7 +306,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Maintained database health while monitoring system metrics to track usage trends and enable data-driven decision making",
+                                    "Built multi-touch attribution framework and centralized nurture management system",
                                 }),
                               ],
                             }),
