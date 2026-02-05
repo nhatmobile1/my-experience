@@ -135,15 +135,15 @@ export default function SummaryPage() {
                     "Marketing Automation (Marketo)",
                     "CRM Integration (Salesforce)",
                     "Lead Lifecycle Management",
-                    "Campaign Workflow Design",
-                    "Data Quality & Analytics",
+                    "AI & Workflow Automation",
+                    "Data Governance & Quality",
+                    "Privacy Compliance (GDPR/CASL)",
                     "Vendor & Cost Management",
-                    "Process Documentation",
-                    "Demand Generation",
+                    "Revenue Operations Partnership",
                     "System Integration",
-                    "Team Training & Enablement",
+                    "Attribution & Analytics",
                     "Account-Based Marketing",
-                    "Email Marketing & Segmentation",
+                    "Team Enablement & Documentation",
                   ].map((skill) =>
                     /*#__PURE__*/ _jsx(
                       "div",
@@ -201,7 +201,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Own marketing technology stack end-to-end, leading vendor evaluation, integrations, and cost optimization",
+                                    "Own marketing technology stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations",
                                 }),
                               ],
                             }),
@@ -214,7 +214,20 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Architect scalable campaign operations framework with intake workflows, execution playbooks, and post-campaign analysis",
+                                    "Architect scalable campaign operations framework with standardized intake workflows, execution playbooks, and post-campaign analysis",
+                                }),
+                              ],
+                            }),
+                            /*#__PURE__*/ _jsxs("li", {
+                              className: "flex",
+                              children: [
+                                /*#__PURE__*/ _jsx("span", {
+                                  className: "mr-2",
+                                  children: "•",
+                                }),
+                                /*#__PURE__*/ _jsx("span", {
+                                  children:
+                                    "Establish data governance and quality monitoring practices ensuring cross-system consistency for attribution and pipeline analytics",
                                 }),
                               ],
                             }),
@@ -228,19 +241,6 @@ export default function SummaryPage() {
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
                                     "Drive AI and automation adoption across marketing operations for campaign planning and performance analysis",
-                                }),
-                              ],
-                            }),
-                            /*#__PURE__*/ _jsxs("li", {
-                              className: "flex",
-                              children: [
-                                /*#__PURE__*/ _jsx("span", {
-                                  className: "mr-2",
-                                  children: "•",
-                                }),
-                                /*#__PURE__*/ _jsx("span", {
-                                  children:
-                                    "Partner cross-functionally with Sales Ops and Analytics to optimize lead flow and funnel velocity",
                                 }),
                               ],
                             }),
@@ -280,7 +280,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Architected global privacy compliance framework for GDPR and CASL with automated consent management",
+                                    "Architected global privacy compliance framework for GDPR and CASL with automated consent management and region-based segmentation",
                                 }),
                               ],
                             }),
@@ -293,7 +293,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Designed lead lifecycle and scoring system with automated routing logic and CRM integration for sales handoff",
+                                    "Designed lead lifecycle and scoring system with automated routing logic, MQL qualification, and CRM integration",
                                 }),
                               ],
                             }),
@@ -306,7 +306,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built multi-touch attribution framework and centralized nurture architecture with prioritization segmentation",
+                                    "Built multi-touch attribution framework for pipeline reporting and centralized nurture architecture with prioritization segmentation",
                                 }),
                               ],
                             }),
@@ -347,7 +347,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built campaign operations infrastructure with intake workflows, SLA management, and QA protocols",
+                                    "Built campaign operations infrastructure from the ground up with intake workflows, SLA management, and QA protocols",
                                 }),
                               ],
                             }),
@@ -360,7 +360,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Implemented lead routing and scoring using LeanData, optimizing lead-to-sales handoff times",
+                                    "Implemented lead routing and scoring using LeanData, optimizing lead-to-sales handoff times and response rates",
                                 }),
                               ],
                             }),
@@ -373,7 +373,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Designed customer lifecycle nurture program driving significant improvements in product adoption",
+                                    "Designed and launched customer lifecycle nurture program driving seat utilization from 50-60% to 95%",
                                 }),
                               ],
                             }),
@@ -414,7 +414,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Executed multi-channel demand generation campaigns in Marketo supporting pipeline targets",
+                                    "Executed multi-channel demand generation campaigns in Marketo across email, webinar, and digital channels",
                                 }),
                               ],
                             }),
@@ -427,7 +427,20 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Partnered with Sales Development on ABM initiatives and lead handoff optimization",
+                                    "Built and optimized email nurture streams with audience segmentation to improve engagement and conversion",
+                                }),
+                              ],
+                            }),
+                            /*#__PURE__*/ _jsxs("li", {
+                              className: "flex",
+                              children: [
+                                /*#__PURE__*/ _jsx("span", {
+                                  className: "mr-2",
+                                  children: "•",
+                                }),
+                                /*#__PURE__*/ _jsx("span", {
+                                  children:
+                                    "Partnered with Sales Development on ABM initiatives, lead qualification, and handoff optimization",
                                 }),
                               ],
                             }),
@@ -487,6 +500,22 @@ export default function SummaryPage() {
                       children: [
                         /*#__PURE__*/ _jsx("h3", {
                           className: "font-semibold mb-1 print:text-black",
+                          children: "Global Privacy Compliance Framework",
+                        }),
+                        /*#__PURE__*/ _jsx("p", {
+                          className:
+                            "text-sm text-muted-foreground print:text-gray-800",
+                          children:
+                            "Architected GDPR and CASL compliance framework at Intercom with automated consent management, expiration tracking, and region-based segmentation",
+                        }),
+                      ],
+                    }),
+                    /*#__PURE__*/ _jsxs(Card, {
+                      className:
+                        "p-4 print:border print:border-gray-300 print:shadow-none",
+                      children: [
+                        /*#__PURE__*/ _jsx("h3", {
+                          className: "font-semibold mb-1 print:text-black",
                           children: "Lead Lifecycle Optimization",
                         }),
                         /*#__PURE__*/ _jsx("p", {
@@ -524,7 +553,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Marketo (Certified Expert), Salesforce, LeanData, HubSpot, Pardot",
+                            "Marketo (Certified Expert), Salesforce, LeanData, Demandbase, Airtable",
                         }),
                       ],
                     }),
@@ -535,13 +564,13 @@ export default function SummaryPage() {
                         /*#__PURE__*/ _jsx("h3", {
                           className:
                             "font-semibold mb-2 text-sm print:text-black",
-                          children: "Analytics & Reporting",
+                          children: "Analytics & BI",
                         }),
                         /*#__PURE__*/ _jsx("p", {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Campaign analytics, data quality monitoring, attribution modeling, KPI dashboards",
+                            "Sigma, Tableau, attribution modeling, data quality monitoring, KPI dashboards",
                         }),
                       ],
                     }),
@@ -552,13 +581,13 @@ export default function SummaryPage() {
                         /*#__PURE__*/ _jsx("h3", {
                           className:
                             "font-semibold mb-2 text-sm print:text-black",
-                          children: "Integration Tools",
+                          children: "Automation & Integration",
                         }),
                         /*#__PURE__*/ _jsx("p", {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "API integrations, Zapier, webhook management, data synchronization",
+                            "Workato, Zapier, Clay, API integrations, AI workflow automation",
                         }),
                       ],
                     }),
@@ -569,13 +598,13 @@ export default function SummaryPage() {
                         /*#__PURE__*/ _jsx("h3", {
                           className:
                             "font-semibold mb-2 text-sm print:text-black",
-                          children: "Campaign Management",
+                          children: "Project & Campaign Ops",
                         }),
                         /*#__PURE__*/ _jsx("p", {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Email marketing, drip campaigns, lead scoring, nurture streams, A/B testing",
+                            "Asana, Wrike, lead scoring, nurture streams, campaign workflows",
                         }),
                       ],
                     }),
