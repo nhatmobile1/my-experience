@@ -201,7 +201,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Led vendor consolidation initiative achieving significant cost savings while streamlining the marketing technology ecosystem",
+                                    "Own marketing technology stack end-to-end, leading vendor evaluation, integrations, and cost optimization",
                                 }),
                               ],
                             }),
@@ -214,7 +214,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Driving 95% data consistency across systems with automated monitoring and weekly scorecards",
+                                    "Architect scalable campaign operations framework with intake workflows, execution playbooks, and post-campaign analysis",
                                 }),
                               ],
                             }),
@@ -227,7 +227,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Leading AI workflow adoption across marketing, launching production workflows for campaign planning and analysis",
+                                    "Drive AI and automation adoption across marketing operations for campaign planning and performance analysis",
                                 }),
                               ],
                             }),
@@ -240,7 +240,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Reducing campaign setup time by 30% and automating manual processes to free 20% of team capacity",
+                                    "Partner cross-functionally with Sales Ops and Analytics to optimize lead flow and funnel velocity",
                                 }),
                               ],
                             }),
@@ -293,7 +293,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Designed lead lifecycle processing system with automated routing, MQL qualification, and Salesforce integration",
+                                    "Designed lead lifecycle and scoring system with automated routing logic and CRM integration for sales handoff",
                                 }),
                               ],
                             }),
@@ -306,7 +306,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built multi-touch attribution framework and centralized nurture management system",
+                                    "Built multi-touch attribution framework and centralized nurture architecture with prioritization segmentation",
                                 }),
                               ],
                             }),
@@ -347,7 +347,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built comprehensive campaign operations process from ground up, implementing intake tool and training program for entire marketing team",
+                                    "Built campaign operations infrastructure with intake workflows, SLA management, and QA protocols",
                                 }),
                               ],
                             }),
@@ -360,7 +360,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Implemented efficiency tools including LeanData and developed automated processes that dramatically reduced lead-to-conversion times",
+                                    "Implemented lead routing and scoring using LeanData, optimizing lead-to-sales handoff times",
                                 }),
                               ],
                             }),
@@ -372,11 +372,8 @@ export default function SummaryPage() {
                                   children: "•",
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
-                                  children: /*#__PURE__*/ _jsx("strong", {
-                                    className: "print:text-black",
-                                    children:
-                                      "Launched first customer nurture program, improving seat usage from 50-60% to 95%",
-                                  }),
+                                  children:
+                                    "Designed customer lifecycle nurture program driving significant improvements in product adoption",
                                 }),
                               ],
                             }),
@@ -417,7 +414,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Designed, built, and executed demand generation programs in Marketo",
+                                    "Executed multi-channel demand generation campaigns in Marketo supporting pipeline targets",
                                 }),
                               ],
                             }),
@@ -430,7 +427,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Implemented account-based marketing strategies with Sales Development team",
+                                    "Partnered with Sales Development on ABM initiatives and lead handoff optimization",
                                 }),
                               ],
                             }),
