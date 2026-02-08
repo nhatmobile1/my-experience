@@ -34,8 +34,11 @@ export default function Portfolio() {
                     children: [
                       /*#__PURE__*/ _jsx("h1", {
                         className:
-                          "text-4xl md:text-5xl font-bold mb-3 text-balance",
-                        children: "Nhat Tran",
+                          "text-4xl md:text-5xl font-extrabold tracking-tight mb-3 text-balance",
+                        children: /*#__PURE__*/ _jsx("span", {
+                          className: "name-accent",
+                          children: "Nhat Tran",
+                        }),
                       }),
                       /*#__PURE__*/ _jsx("p", {
                         className: "text-lg md:text-xl text-muted-foreground",
@@ -91,10 +94,10 @@ export default function Portfolio() {
                 children: [
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("about"),
-                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
+                    className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "about"
-                        ? "text-foreground"
-                        : "text-muted-foreground hover:text-foreground"
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground font-medium"
                     }`,
                     children: [
                       "About",
@@ -107,10 +110,10 @@ export default function Portfolio() {
                   }),
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("experience"),
-                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
+                    className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "experience"
-                        ? "text-foreground"
-                        : "text-muted-foreground hover:text-foreground"
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground font-medium"
                     }`,
                     children: [
                       "Experience",
@@ -123,10 +126,10 @@ export default function Portfolio() {
                   }),
                   /*#__PURE__*/ _jsxs("button", {
                     onClick: () => setActiveTab("projects"),
-                    className: `pb-3 px-1 font-medium transition-colors relative focus-enhanced rounded-sm ${
+                    className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
                       activeTab === "projects"
-                        ? "text-foreground"
-                        : "text-muted-foreground hover:text-foreground"
+                        ? "text-foreground font-semibold"
+                        : "text-muted-foreground hover:text-foreground font-medium"
                     }`,
                     children: [
                       "Projects",
@@ -141,14 +144,20 @@ export default function Portfolio() {
               }),
             ],
           }),
-          /*#__PURE__*/ _jsxs("main", {
-            children: [
-              activeTab === "about" && /*#__PURE__*/ _jsx(AboutSection, {}),
-              activeTab === "experience" &&
-                /*#__PURE__*/ _jsx(ExperienceSection, {}),
-              activeTab === "projects" &&
-                /*#__PURE__*/ _jsx(ProjectsSection, {}),
-            ],
+          /*#__PURE__*/ _jsx("main", {
+            children: /*#__PURE__*/ _jsx(
+              "div",
+              {
+                className: "tab-content",
+                children:
+                  activeTab === "about"
+                    ? /*#__PURE__*/ _jsx(AboutSection, {})
+                    : activeTab === "experience"
+                      ? /*#__PURE__*/ _jsx(ExperienceSection, {})
+                      : /*#__PURE__*/ _jsx(ProjectsSection, {}),
+              },
+              activeTab
+            ),
           }),
           /*#__PURE__*/ _jsx("footer", {
             className: "mt-24 pt-8 border-t border-border",
@@ -275,7 +284,7 @@ function AboutSection() {
               /*#__PURE__*/ _jsxs(
                 "div",
                 {
-                  className: `p-4 bg-secondary/50 rounded-md animate-fade-in-up stagger-${index + 1}`,
+                  className: `p-4 bg-secondary/50 rounded-md animate-fade-in-up expertise-card stagger-${index + 1}`,
                   children: [
                     /*#__PURE__*/ _jsx("h3", {
                       className: "font-semibold text-base mb-1",

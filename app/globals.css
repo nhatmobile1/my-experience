@@ -87,7 +87,7 @@
 }
 
 .dark {
-  /* Dark mode - inverted neutral scale with warm terracotta accents */
+  /* Dark mode - cool slate blue accents with inverted neutral scale */
   --background: oklch(from var(--neutral-900) l c h);
   --foreground: oklch(from var(--neutral-50) l c h);
   --card: oklch(from var(--neutral-800) l c h);
@@ -210,6 +210,8 @@
 .stagger-4 { animation-delay: 0.2s; opacity: 0; }
 .stagger-5 { animation-delay: 0.25s; opacity: 0; }
 .stagger-6 { animation-delay: 0.3s; opacity: 0; }
+.stagger-7 { animation-delay: 0.35s; opacity: 0; }
+.stagger-8 { animation-delay: 0.4s; opacity: 0; }
 
 /* Respect user motion preferences */
 @media (prefers-reduced-motion: reduce) {
@@ -221,9 +223,16 @@
   }
 
   .stagger-1, .stagger-2, .stagger-3,
-  .stagger-4, .stagger-5, .stagger-6 {
+  .stagger-4, .stagger-5, .stagger-6,
+  .stagger-7, .stagger-8 {
     animation-delay: 0s;
     opacity: 1;
+  }
+
+  .tab-content {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 
   * {
@@ -253,6 +262,43 @@
   }
 }
 
+/* Tab content fade transition */
+.tab-content {
+  animation: tabFadeIn 0.3s ease-out forwards;
+}
+
+@keyframes tabFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header name accent underline */
+.name-accent {
+  position: relative;
+  display: inline-block;
+}
+
+.name-accent::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: var(--accent-500);
+  border-radius: 1px;
+}
+
+.dark .name-accent::after {
+  background-color: var(--accent-400);
+}
+
 /* Card hover transforms */
 .card-hover {
   transition: transform 0.2s ease, border-color 0.2s ease;
@@ -260,6 +306,22 @@
 
 .card-hover:hover {
   transform: translateY(-2px);
+}
+
+/* Expertise card hover */
+.expertise-card {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.expertise-card:hover {
+  background-color: var(--neutral-200);
+  border-color: var(--accent-200);
+}
+
+.dark .expertise-card:hover {
+  background-color: var(--neutral-700);
+  border-color: var(--accent-800);
 }
 
 /* Focus states for accessibility */
