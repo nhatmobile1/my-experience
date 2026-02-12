@@ -15,9 +15,16 @@ const _geistMono = Geist_Mono({
 });
 // <CHANGE> Updated metadata for portfolio
 export const metadata = {
+    metadataBase: new URL("https://www.nhattran.me"),
     title: "Nhat Tran - Marketing Operations Expert",
     description: "Marketing Operations expert building efficient go-to-market engines through strategic process optimization, data-driven insights, and modern marketing technology.",
-    generator: "v0.app",
+    openGraph: {
+        title: "Nhat Tran - Marketing Operations Expert",
+        description: "Building efficient marketing systems that drive measurable results through automation, integration, and process optimization.",
+        url: "https://www.nhattran.me",
+        siteName: "Nhat Tran Portfolio",
+        type: "website",
+    },
     icons: {
         icon: [
             {
@@ -45,7 +52,7 @@ export default function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ _jsx(ThemeProvider, {
                     attribute: "class",
-                    defaultTheme: "system",
+                    defaultTheme: "light",
                     enableSystem: true,
                     disableTransitionOnChange: true,
                     children: children

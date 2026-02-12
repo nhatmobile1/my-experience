@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Mail, Moon, Sun, FileText } from "lucide-react";
+import { Linkedin, Mail, Moon, Sun, FileText } from "lucide-react";
+const TABS = ["about", "experience", "projects"];
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState("about");
   const [mounted, setMounted] = useState(false);
@@ -12,7 +13,33 @@ export default function Portfolio() {
 
   useEffect(() => {
     setMounted(true);
+    const hash = window.location.hash.replace("#", "");
+    if (TABS.includes(hash)) {
+      setActiveTab(hash);
+    }
+    const handlePopState = () => {
+      const h = window.location.hash.replace("#", "");
+      setActiveTab(TABS.includes(h) ? h : "about");
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
   }, []);
+
+  const handleTabChange = (tab) => {
+    setActiveTab(tab);
+    window.history.pushState(null, "", `#${tab}`);
+  };
+
+  const handleTabKeyDown = (e) => {
+    const idx = TABS.indexOf(activeTab);
+    if (e.key === "ArrowRight") {
+      e.preventDefault();
+      handleTabChange(TABS[(idx + 1) % TABS.length]);
+    } else if (e.key === "ArrowLeft") {
+      e.preventDefault();
+      handleTabChange(TABS[(idx - 1 + TABS.length) % TABS.length]);
+    }
+  };
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -91,56 +118,29 @@ export default function Portfolio() {
               }),
               /*#__PURE__*/ _jsxs("nav", {
                 className: "flex gap-8 border-b border-border",
-                children: [
+                role: "tablist",
+                onKeyDown: handleTabKeyDown,
+                children: TABS.map((tab) =>
                   /*#__PURE__*/ _jsxs("button", {
-                    onClick: () => setActiveTab("about"),
+                    onClick: () => handleTabChange(tab),
+                    role: "tab",
+                    "aria-selected": activeTab === tab,
+                    tabIndex: activeTab === tab ? 0 : -1,
                     className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
-                      activeTab === "about"
+                      activeTab === tab
                         ? "text-foreground font-semibold"
                         : "text-muted-foreground hover:text-foreground font-medium"
                     }`,
                     children: [
-                      "About",
-                      activeTab === "about" &&
+                      tab.charAt(0).toUpperCase() + tab.slice(1),
+                      activeTab === tab &&
                         /*#__PURE__*/ _jsx("div", {
                           className:
                             "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
                         }),
                     ],
-                  }),
-                  /*#__PURE__*/ _jsxs("button", {
-                    onClick: () => setActiveTab("experience"),
-                    className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
-                      activeTab === "experience"
-                        ? "text-foreground font-semibold"
-                        : "text-muted-foreground hover:text-foreground font-medium"
-                    }`,
-                    children: [
-                      "Experience",
-                      activeTab === "experience" &&
-                        /*#__PURE__*/ _jsx("div", {
-                          className:
-                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
-                        }),
-                    ],
-                  }),
-                  /*#__PURE__*/ _jsxs("button", {
-                    onClick: () => setActiveTab("projects"),
-                    className: `pb-3 px-1 transition-colors relative focus-enhanced rounded-sm ${
-                      activeTab === "projects"
-                        ? "text-foreground font-semibold"
-                        : "text-muted-foreground hover:text-foreground font-medium"
-                    }`,
-                    children: [
-                      "Projects",
-                      activeTab === "projects" &&
-                        /*#__PURE__*/ _jsx("div", {
-                          className:
-                            "absolute bottom-0 left-0 right-0 h-0.5 bg-foreground tab-underline",
-                        }),
-                    ],
-                  }),
-                ],
+                  }, tab)
+                ),
               }),
             ],
           }),
@@ -172,17 +172,6 @@ export default function Portfolio() {
                 /*#__PURE__*/ _jsxs("div", {
                   className: "flex items-center gap-4",
                   children: [
-                    /*#__PURE__*/ _jsx("a", {
-                      href: "https://github.com/nhatmobile1",
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      "aria-label": "GitHub profile",
-                      className:
-                        "text-muted-foreground hover:text-foreground social-link",
-                      children: /*#__PURE__*/ _jsx(Github, {
-                        className: "h-5 w-5",
-                      }),
-                    }),
                     /*#__PURE__*/ _jsx("a", {
                       href: "https://www.linkedin.com/in/nt-tran/",
                       target: "_blank",
@@ -244,6 +233,14 @@ function AboutSection() {
                   "Whether it's designing segmentation strategies, integrating CRM platforms, improving lead lifecycle management, or creating data health monitoring practices, I focus on building infrastructure that reduces manual work and supports data-driven decision making. My work helps marketing teams move faster, spend smarter, and measure what matters.",
               }),
             ],
+          }),
+          /*#__PURE__*/ _jsx("div", {
+            className: "mt-5",
+            children: /*#__PURE__*/ _jsx("span", {
+              className:
+                "px-3 py-1.5 bg-primary/10 text-primary rounded-sm text-xs font-semibold tracking-wide uppercase",
+              children: "Marketo Certified Expert",
+            }),
           }),
         ],
       }),
@@ -326,22 +323,6 @@ function AboutSection() {
                       className: "mr-2 h-4 w-4",
                     }),
                     "Email Me",
-                  ],
-                }),
-              }),
-              /*#__PURE__*/ _jsx(Button, {
-                variant: "outline",
-                asChild: true,
-                className: "btn-outline-enhanced",
-                children: /*#__PURE__*/ _jsxs("a", {
-                  href: "https://github.com/nhatmobile1",
-                  target: "_blank",
-                  rel: "noopener noreferrer",
-                  children: [
-                    /*#__PURE__*/ _jsx(Github, {
-                      className: "mr-2 h-4 w-4",
-                    }),
-                    "GitHub",
                   ],
                 }),
               }),

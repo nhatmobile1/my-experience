@@ -100,9 +100,6 @@ export default function SummaryPage() {
                     /*#__PURE__*/ _jsx("span", {
                       children: "linkedin.com/in/nt-tran/",
                     }),
-                    /*#__PURE__*/ _jsx("span", {
-                      children: "github.com/nhatmobile1",
-                    }),
                   ],
                 }),
               ],
@@ -170,7 +167,7 @@ export default function SummaryPage() {
                   children: [
                     /*#__PURE__*/ _jsxs("div", {
                       className:
-                        "border-l-2 border-primary print:border-gray-400 pl-4",
+                        "border-l border-border print:border-gray-300 pl-4",
                       children: [
                         /*#__PURE__*/ _jsxs("div", {
                           className: "mb-2",
@@ -250,7 +247,7 @@ export default function SummaryPage() {
                     }),
                     /*#__PURE__*/ _jsxs("div", {
                       className:
-                        "border-l-2 border-primary print:border-gray-400 pl-4",
+                        "border-l border-border print:border-gray-300 pl-4",
                       children: [
                         /*#__PURE__*/ _jsxs("div", {
                           className: "mb-2",
@@ -316,7 +313,7 @@ export default function SummaryPage() {
                     }),
                     /*#__PURE__*/ _jsxs("div", {
                       className:
-                        "border-l-2 border-primary print:border-gray-400 pl-4",
+                        "border-l border-border print:border-gray-300 pl-4",
                       children: [
                         /*#__PURE__*/ _jsxs("div", {
                           className: "mb-2",
@@ -383,7 +380,7 @@ export default function SummaryPage() {
                     }),
                     /*#__PURE__*/ _jsxs("div", {
                       className:
-                        "border-l-2 border-primary print:border-gray-400 pl-4",
+                        "border-l border-border print:border-gray-300 pl-4",
                       children: [
                         /*#__PURE__*/ _jsxs("div", {
                           className: "mb-2",
