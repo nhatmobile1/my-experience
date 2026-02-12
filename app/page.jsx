@@ -99,6 +99,7 @@ export default function Portfolio() {
                         variant: "ghost",
                         size: "icon",
                         onClick: toggleTheme,
+                        "aria-label": theme === "dark" ? "Switch to light mode" : "Switch to dark mode",
                         className: "btn-icon-enhanced",
                         children: mounted
                           ? theme === "dark"
