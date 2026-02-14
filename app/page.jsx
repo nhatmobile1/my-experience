@@ -367,7 +367,6 @@ function ExperienceSection() {
       technologies: [
         "Marketo",
         "Salesforce",
-        "Airtable",
         "Workato",
         "Clay",
         "Sigma",
