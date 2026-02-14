@@ -115,7 +115,7 @@ export default function SummaryPage() {
                   className:
                     "text-base leading-relaxed text-muted-foreground print:text-gray-800",
                   children:
-                    "Marketing operations leader with 9 years of experience building systems that drive measurable results. Specialized in marketing automation, data governance, AI workflow implementation, and collaboration with Marketing, Sales, Operations, and Customer Success teams at technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of building global privacy compliance systems (GDPR/CASL), consolidating vendor tools for substantial cost savings, and designing customer lifecycle programs that drove revenue growth and product adoption.",
+                    "Marketing operations professional with 9 years of experience building scalable systems that drive pipeline performance. Specialized in marketing automation, MarTech stack governance, data enrichment, AI-driven workflows, and cross-functional GTM partnership at technology companies including Benchling, Intercom, and Malwarebytes. Marketo Certified Expert with proven track record of building global privacy compliance systems (GDPR/CASL), consolidating vendor tools for substantial cost savings, and designing lifecycle automation programs that drove revenue growth and product adoption.",
                 }),
               ],
             }),
@@ -132,15 +132,15 @@ export default function SummaryPage() {
                     "Marketing Automation (Marketo)",
                     "CRM Integration (Salesforce)",
                     "Lead Lifecycle Management",
-                    "AI & Workflow Automation",
-                    "Data Governance & Quality",
+                    "AI-Driven Workflows",
+                    "Data Governance & Enrichment",
                     "Privacy Compliance (GDPR/CASL)",
-                    "Vendor & Cost Management",
+                    "Vendor & Budget Optimization",
                     "Cross-Functional GTM Leadership",
-                    "System Integration",
-                    "Attribution & Analytics",
-                    "Account-Based Marketing",
-                    "Team Enablement & Documentation",
+                    "MarTech Stack Governance",
+                    "Attribution Modeling & Analytics",
+                    "Campaign Architecture",
+                    "Operational Playbooks & SOPs",
                   ].map((skill) =>
                     /*#__PURE__*/ _jsx(
                       "div",
@@ -198,7 +198,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Own marketing technology stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations",
+                                    "Own MarTech stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations",
                                 }),
                               ],
                             }),
@@ -224,7 +224,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Establish data governance and quality monitoring practices that maintain cross-system consistency for attribution and revenue analytics",
+                                    "Establish data governance and enrichment practices that ensure cross-system data quality for attribution, pipeline reporting, and revenue analytics",
                                 }),
                               ],
                             }),
@@ -237,7 +237,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Drive AI and automation adoption across marketing operations for campaign planning and performance analysis",
+                                    "Drive AI and automation adoption across marketing operations, implementing AI-driven workflows for campaign planning and performance analysis",
                                 }),
                               ],
                             }),
@@ -303,7 +303,7 @@ export default function SummaryPage() {
                                 }),
                                 /*#__PURE__*/ _jsx("span", {
                                   children:
-                                    "Built multi-touch attribution model for revenue reporting and centralized nurture architecture with prioritization segmentation",
+                                    "Built multi-touch attribution model for pipeline reporting and centralized nurture architecture with prioritization segmentation",
                                 }),
                               ],
                             }),
@@ -465,7 +465,7 @@ export default function SummaryPage() {
                       children: [
                         /*#__PURE__*/ _jsx("h3", {
                           className: "font-semibold mb-1 print:text-black",
-                          children: "Marketing Tech Stack Consolidation",
+                          children: "MarTech Stack Consolidation",
                         }),
                         /*#__PURE__*/ _jsx("p", {
                           className:
@@ -519,7 +519,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Implemented LeanData and automated processes that dramatically reduced lead-to-conversion times, accelerating funnel velocity",
+                            "Implemented LeanData and automated processes that dramatically reduced lead-to-conversion times, accelerating pipeline velocity",
                         }),
                       ],
                     }),
@@ -567,7 +567,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Sigma, Tableau, attribution modeling, data quality monitoring, KPI dashboards",
+                            "Sigma, Tableau, attribution modeling, pipeline reporting, data quality monitoring",
                         }),
                       ],
                     }),
@@ -584,7 +584,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Workato, Zapier, Clay, API integrations, AI workflow automation",
+                            "Workato, Zapier, Clay, API integrations, AI/LLM workflow automation",
                         }),
                       ],
                     }),
@@ -601,7 +601,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Asana, Wrike, lead scoring, nurture streams, campaign workflows",
+                            "Asana, Wrike, lead scoring, lifecycle automation, campaign architecture",
                         }),
                       ],
                     }),

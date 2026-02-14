@@ -76,7 +76,7 @@ export default function Portfolio() {
                         className:
                           "text-sm md:text-base text-muted-foreground mt-2 max-w-xl text-pretty",
                         children:
-                          "Building efficient marketing systems that drive measurable results through automation, integration, and process optimization.",
+                          "Building scalable marketing systems that drive pipeline performance through automation, integration, and operational excellence.",
                       }),
                     ],
                   }),
@@ -219,19 +219,19 @@ function AboutSection() {
               /*#__PURE__*/ _jsx("p", {
                 className: "text-base leading-relaxed text-muted-foreground",
                 children:
-                  "I'm a marketing operations professional who builds efficient systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, systems integrations, data governance, AI workflow implementation, and process optimization.",
+                  "I'm a marketing operations professional who builds scalable systems that drive measurable results. Over the past 9 years at companies like Benchling, Intercom, and Malwarebytes, I've specialized in marketing automation, MarTech stack governance, data enrichment, AI-driven workflows, and GTM systems architecture.",
               }),
               /*#__PURE__*/ _jsx("p", {
                 className:
                   "text-base leading-relaxed text-muted-foreground mt-4",
                 children:
-                  "My approach centers on transforming complex marketing technology stacks into streamlined operations. I've implemented automated lead nurturing systems that improved conversion efficiency, consolidated vendor tools to achieve substantial cost savings, and built documentation systems that help teams operate more effectively. I'm a Marketo Certified Expert with deep experience across the full marketing operations spectrum.",
+                  "My approach centers on transforming complex MarTech ecosystems into scalable, high-performing operations. I've implemented lifecycle automation systems that improved pipeline conversion, consolidated vendor tools to achieve substantial cost savings, and built operational playbooks and governance frameworks that scale team capabilities. I'm a Marketo Certified Expert with deep experience across the full marketing and revenue operations spectrum.",
               }),
               /*#__PURE__*/ _jsx("p", {
                 className:
                   "text-base leading-relaxed text-muted-foreground mt-4",
                 children:
-                  "Whether it's designing segmentation strategies, integrating CRM platforms, improving lead lifecycle management, or creating data health monitoring practices, I focus on building infrastructure that reduces manual work and supports data-driven decision making. My work helps marketing teams move faster, spend smarter, and measure what matters.",
+                  "Whether it's designing campaign architecture, integrating GTM systems, optimizing lead lifecycle management, or building data quality governance, I focus on building infrastructure that reduces operational friction and drives pipeline performance. My work helps marketing teams move faster, spend smarter, and measure what matters.",
               }),
             ],
           }),
@@ -256,27 +256,27 @@ function AboutSection() {
             children: [
               {
                 title: "Marketing Automation",
-                desc: "Marketo, campaign workflows, lead nurturing, and drip sequences",
+                desc: "Marketo, campaign architecture, lifecycle automation, and scoring models",
               },
               {
-                title: "System Integration",
-                desc: "Connecting marketing tech stacks and CRM platforms for reliable data flow",
+                title: "MarTech & GTM Systems",
+                desc: "Building and governing integrated marketing technology ecosystems for reliable data flow",
               },
               {
                 title: "Data & Analytics",
-                desc: "Campaign reporting, data health monitoring, and performance analysis",
+                desc: "Pipeline reporting, attribution modeling, data quality monitoring, and funnel analysis",
               },
               {
                 title: "Process Optimization",
-                desc: "Standardization, documentation, and efficiency improvements",
+                desc: "Scalable workflows, SOPs, operational playbooks, and governance frameworks",
               },
               {
                 title: "Vendor Management",
-                desc: "Contract negotiation, tool consolidation, and budget management",
+                desc: "Contract negotiation, tool consolidation, and budget optimization",
               },
               {
                 title: "Demand Generation",
-                desc: "Lead conversion strategies and funnel acceleration",
+                desc: "Pipeline creation, lead scoring, funnel optimization, and conversion strategy",
               },
             ].map((expertise, index) =>
               /*#__PURE__*/ _jsxs(
@@ -357,12 +357,12 @@ function ExperienceSection() {
       company: "Benchling",
       period: "February 2022 — Present",
       highlights: [
-        "Own the marketing technology stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations to improve performance and reduce operational costs",
+        "Own the MarTech stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations to improve performance and reduce operational costs",
         "Architect scalable campaign operations framework with standardized intake workflows, execution playbooks, and post-campaign analysis across Marketo, Salesforce, and Airtable",
-        "Establish data governance and quality monitoring practices that maintain cross-system consistency for reliable attribution, funnel reporting, and revenue analytics",
-        "Drive AI and automation adoption across marketing operations, implementing workflows for campaign planning, audience research, and performance analysis",
-        "Partner with Demand Generation, Sales Operations, and Analytics teams to refine lead flow architecture and improve funnel velocity",
-        "Build self-service documentation and training programs to scale marketing operations capabilities across the organization",
+        "Establish data governance and enrichment practices that ensure cross-system data quality for reliable attribution, pipeline reporting, and revenue analytics",
+        "Drive AI and automation adoption across marketing operations, implementing AI-driven workflows for campaign planning, audience enrichment, and performance analysis",
+        "Partner cross-functionally with Demand Generation, Sales Operations, and Analytics teams to refine lead flow architecture and improve pipeline velocity",
+        "Build operational playbooks, SOPs, and training programs to scale marketing operations capabilities across the organization",
       ],
       technologies: [
         "Marketo",
@@ -371,7 +371,7 @@ function ExperienceSection() {
         "Workato",
         "Clay",
         "Sigma",
-        "AI Automation",
+        "AI/LLM Workflows",
         "Data Governance",
       ],
     },
@@ -382,16 +382,17 @@ function ExperienceSection() {
       highlights: [
         "Architected global privacy compliance framework for GDPR and CASL with automated consent management, expiration tracking, and region-based segmentation",
         "Designed lead lifecycle and scoring system with automated routing logic, MQL qualification triggers, and CRM integration for sales handoff",
-        "Built multi-touch attribution model capturing lead source data across the customer journey for revenue reporting and channel performance",
+        "Built multi-touch attribution model capturing lead source data across the customer journey for pipeline reporting and channel performance",
         "Developed centralized nurture architecture with prioritization segmentation for proper audience management and preventing program overlap",
         "Managed marketing automation platform performance, led QA protocols for campaign execution, and partnered with Sales and Product on GTM initiatives",
       ],
       technologies: [
+        "Marketo",
         "Zapier",
         "Tableau",
         "Asana",
-        "Lead Scoring",
-        "Attribution",
+        "Lifecycle Management",
+        "Attribution Modeling",
         "Privacy Compliance",
       ],
     },
@@ -409,7 +410,7 @@ function ExperienceSection() {
         "LeanData",
         "Demandbase",
         "Wrike",
-        "Lifecycle Nurture",
+        "Lifecycle Automation",
         "Lead Routing",
       ],
     },
@@ -424,6 +425,7 @@ function ExperienceSection() {
         "Partnered with Sales Development on account-based marketing initiatives, lead qualification criteria, and handoff process improvements",
       ],
       technologies: [
+        "Marketo",
         "Demand Generation",
         "Email Nurture",
         "Webinars",
@@ -513,19 +515,26 @@ function ExperienceSection() {
 function ProjectsSection() {
   const projects = [
     {
-      title: "Marketing Tech Stack Consolidation",
+      title: "MarTech Stack Consolidation",
       company: "Benchling",
       description:
-        "Led strategic vendor consolidation initiative, negotiating contracts and streamlining the marketing technology ecosystem. Achieved significant cost savings while improving system performance and team efficiency.",
-      tags: ["Vendor Management", "Cost Optimization", "System Integration"],
+        "Led strategic vendor consolidation initiative, negotiating contracts and streamlining the MarTech ecosystem. Achieved significant cost savings while improving system performance and team efficiency.",
+      tags: ["Vendor Management", "Cost Optimization", "MarTech Governance"],
       impact: "Significant cost savings",
     },
     {
       title: "Automated Lead Nurturing System",
       company: "Benchling",
       description:
-        "Developed standardized processes for campaign and channel management, creating automated lead nurturing workflows that enhanced demand generation and improved lead conversion efficiency.",
-      tags: ["Marketing Automation", "Lead Conversion", "Process Design"],
+        "Developed standardized processes for campaign and channel management, creating lifecycle automation workflows that enhanced demand generation and improved pipeline conversion.",
+      tags: ["Campaign Architecture", "Pipeline Conversion", "Lifecycle Automation"],
+    },
+    {
+      title: "Data Quality & Governance System",
+      company: "Benchling",
+      description:
+        "Established data quality governance and monitoring practices, ensuring accurate and enriched data across GTM systems for reliable attribution and campaign performance reporting.",
+      tags: ["Data Governance", "Data Enrichment", "GTM Systems"],
     },
     {
       title: "Global Privacy Compliance Framework",
@@ -539,7 +548,7 @@ function ProjectsSection() {
       company: "Intercom",
       description:
         "Designed lead lifecycle processing with automated MQL qualification and Salesforce integration. Built multi-touch attribution framework for lead source categorization and pipeline analysis.",
-      tags: ["Lead Lifecycle", "Attribution", "Salesforce"],
+      tags: ["Lead Lifecycle", "Attribution Modeling", "Salesforce"],
     },
     {
       title: "Centralized Nurture Architecture",
@@ -563,16 +572,9 @@ function ProjectsSection() {
         "Implemented multiple efficiency tools including LeanData and developed automated processes that dramatically reduced lead-to-conversion times, accelerating pipeline velocity and improving sales team productivity.",
       tags: [
         "Lead Management",
-        "Process Automation",
+        "Pipeline Velocity",
         "Conversion Optimization",
       ],
-    },
-    {
-      title: "Data Health Monitoring System",
-      company: "Benchling",
-      description:
-        "Established ongoing data health monitoring practices, ensuring accurate and relevant data quality for effective marketing tactics and reliable reporting across all campaigns.",
-      tags: ["Data Quality", "System Monitoring", "Process Automation"],
     },
   ];
   return /*#__PURE__*/ _jsx("div", {
