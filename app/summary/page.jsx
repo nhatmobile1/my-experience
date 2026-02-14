@@ -584,7 +584,7 @@ export default function SummaryPage() {
                           className:
                             "text-sm text-muted-foreground print:text-gray-800",
                           children:
-                            "Workato, Zapier, Clay, API integrations, AI/LLM workflow automation",
+                            "Workato, Zapier, Clay, Python, SQL, API integrations, AI/LLM workflow automation",
                         }),
                       ],
                     }),

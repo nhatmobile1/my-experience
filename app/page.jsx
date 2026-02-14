@@ -371,6 +371,8 @@ function ExperienceSection() {
         "Workato",
         "Clay",
         "Sigma",
+        "Python",
+        "SQL",
         "AI/LLM Workflows",
         "Data Governance",
       ],
