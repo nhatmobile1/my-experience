@@ -359,8 +359,8 @@ function ExperienceSection() {
       highlights: [
         "Own the MarTech stack end-to-end, leading vendor evaluation, contract negotiations, and system integrations to improve performance and reduce operational costs",
         "Architect scalable campaign operations framework with standardized intake workflows, execution playbooks, and post-campaign analysis across Marketo, Salesforce, and Airtable",
-        "Establish data governance and enrichment practices that ensure cross-system data quality for reliable attribution, pipeline reporting, and revenue analytics",
-        "Drive AI and automation adoption across marketing operations, implementing AI-driven workflows for campaign planning, audience enrichment, and performance analysis",
+        "Design and maintain lead lifecycle, MQL/MSL qualification scoring, and multi-touch attribution systems that power reliable pipeline reporting and revenue analytics",
+        "Drive AI and automation adoption across marketing operations, including Clay-powered persona classification, AI-driven audience enrichment, and automated campaign workflows",
         "Partner cross-functionally with Demand Generation, Sales Operations, and Analytics teams to refine lead flow architecture and improve pipeline velocity",
         "Build operational playbooks, SOPs, and training programs to scale marketing operations capabilities across the organization",
       ],
@@ -368,6 +368,7 @@ function ExperienceSection() {
         "Marketo",
         "Salesforce",
         "Workato",
+        "LeanData",
         "Clay",
         "Sigma",
         "Python",
@@ -524,18 +525,25 @@ function ProjectsSection() {
       impact: "Significant cost savings",
     },
     {
-      title: "Automated Lead Nurturing System",
+      title: "Lead Lifecycle & Qualification System",
       company: "Benchling",
       description:
-        "Developed standardized processes for campaign and channel management, creating lifecycle automation workflows that enhanced demand generation and improved pipeline conversion.",
-      tags: ["Campaign Architecture", "Pipeline Conversion", "Lifecycle Automation"],
+        "Designed end-to-end lead lifecycle system with 8-status tracking across Marketo, Salesloft, and Salesforce. Built MQL/MSL qualification framework with behavior and demographic scoring, tiered thresholds, cooldown logic, and SLA-based routing via LeanData.",
+      tags: ["Lead Lifecycle", "MQL/MSL Scoring", "LeanData", "Salesforce"],
     },
     {
-      title: "Data Quality & Governance System",
+      title: "Marketing Attribution Framework",
       company: "Benchling",
       description:
-        "Established data quality governance and monitoring practices, ensuring accurate and enriched data across GTM systems for reliable attribution and campaign performance reporting.",
-      tags: ["Data Governance", "Data Enrichment", "GTM Systems"],
+        "Built weighted multi-touch attribution model measuring Marketing's contribution to pipeline and revenue. Implemented meeting, pipeline generation, and won deals attribution with channel weights, 180-day lookback windows, and account-level analysis in Mode.",
+      tags: ["Multi-Touch Attribution", "Pipeline Analytics", "Mode", "Salesforce"],
+    },
+    {
+      title: "AI-Driven Persona Classification",
+      company: "Benchling",
+      description:
+        "Built persona classification system using Clay AI enrichment to identify prospect roles, departments, and interests from LinkedIn profile signals. Replaced manual SDR tagging with automated multi-dimensional classification across a biotech-specific taxonomy.",
+      tags: ["Clay", "AI Enrichment", "Persona Targeting", "Lead Scoring"],
     },
     {
       title: "Global Privacy Compliance Framework",
@@ -545,11 +553,11 @@ function ProjectsSection() {
       tags: ["Privacy Compliance", "GDPR/CASL", "Marketo"],
     },
     {
-      title: "Lead Lifecycle & Attribution System",
+      title: "Data Quality & Governance System",
       company: "Intercom",
       description:
-        "Designed lead lifecycle processing with automated MQL qualification and Salesforce integration. Built multi-touch attribution framework for lead source categorization and pipeline analysis.",
-      tags: ["Lead Lifecycle", "Attribution Modeling", "Salesforce"],
+        "Established data quality governance and monitoring practices, ensuring accurate and enriched data across GTM systems for reliable attribution and campaign performance reporting.",
+      tags: ["Data Governance", "Data Enrichment", "GTM Systems"],
     },
     {
       title: "Centralized Nurture Architecture",
